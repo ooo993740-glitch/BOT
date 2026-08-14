@@ -1,0 +1,18 @@
+{
+  "name": "mikey-bot",
+  "version": "1.0.0",
+  "description": "بوت تيليغرام - اشتراك اجباري، ادارة، رتب، ردود، تحميل يوتيوب",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "firebase-admin": "^12.1.0",
+    "yt-search": "^2.10.4",
+    "@distube/ytdl-core": "^4.14.4",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
